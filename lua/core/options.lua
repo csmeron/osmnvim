@@ -12,9 +12,9 @@ o.cursorlineopt = "number" -- highlight the number under the cursor
 
 -- Tab/Indentation-related Options
 o.expandtab = true -- enables usage of spaces instead of tabs
-o.shiftwidth = 4 -- number of spaces to use for each step of indent
-o.tabstop = 4 -- number of spaces that a <Tab> counts for
-o.softtabstop = 4 -- number of spaces that a <Tab> counts for while editing
+o.shiftwidth = 2 -- number of spaces to use for each step of indent
+o.tabstop = 2 -- number of spaces that a <Tab> counts for
+o.softtabstop = 2 -- number of spaces that a <Tab> counts for while editing
 o.smartindent = true -- enables smart indentation (duh)
 
 -- UI-related Options
