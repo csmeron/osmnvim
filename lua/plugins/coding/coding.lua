@@ -37,12 +37,12 @@ return {
        event = "InsertEnter",
        dependencies = {
            {
-               "L3MON4D3/LuaSnip",
+               "L3MON4D3/luasnip",
                dependencies = "rafamadriz/friendly-snippets",
                opts = { history = true, updateevents = "TextChanged,TextChangedI" },
                config = function(_, opts)
-                   require("LuaSnip").config.set_config(opts)
-                   require "config.LuaSnip"
+                   require("luasnip").config.set_config(opts)
+                   require "config.luasnip"
                end,
            },
            {
@@ -52,11 +52,11 @@ return {
                    disable_filetype = { "TelescopePrompt", "vim" },
                },
                config = function(_, opts)
-                   require("nvim.autopairs").setup(opts)
+                   require("nvim-autopairs").setup(opts)
 
                    local cmp_autopairs = require "nvim-autopairs.completion.cmp"
                    require("cmp").event:on("confirm_done", cmp_autopairs.on_confirm_done())
-               end
+               end,
            },
            {
                "saadparwaiz1/cmp_luasnip",
