@@ -14,3 +14,6 @@ end, { desc = "Toggle Explorer" })
 
 -- Theme swapper
 map("n", "<leader>th", "<cmd>Themery<CR>", { desc = "Open theme switcher" })
+
+-- View diagnostic inline
+map("n", "<leader>d", vim.diagnostic.open_float, { desc = "Show diagnostic" })
