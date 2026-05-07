@@ -65,7 +65,12 @@ return {
                "hrsh7th/cmp-buffer",
                "https://codeberg.org/FelipeLema/cmp-async-path.git",
            },
-        
        },
+       opts = function()
+         return require "config.cmp"
+       end,
+       config = function(_, opts)
+         require("cmp").setup(opts)
+       end,
     },
 }
