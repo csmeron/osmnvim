@@ -19,7 +19,7 @@ o.smartindent = true -- enables smart indentation (duh)
 
 -- UI-related Options
 o.number = true -- enables line numbers
-o.relativenumber = false -- can be toggled with <leader>rn, defined in keymaps.lua
+o.relativenumber = true -- can be toggled with <leader>rn, defined in keymaps.lua
 o.numberwidth = 4
 o.splitbelow = true
 o.splitright = true
