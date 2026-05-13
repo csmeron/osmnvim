@@ -11,9 +11,9 @@ return {
     animate = { enabled = true }, -- animations
     input = { enabled = true }, -- better vim.ui.input
     git = { enabled = true }, -- git utilities
-    notifier { enabled = true }, -- prettier vim.notify
+    notifier = { enabled = true }, -- prettier vim.notify
     scroll = { enabled = true }, -- smooth scrolling
     toggle = { map = vim.keymap.set }, -- toggle keymaps integrated with which-key icons / colors
   },
-  import "plugins.snacks",
+  import = "plugins.snacks",
 }
