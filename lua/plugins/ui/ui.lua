@@ -16,6 +16,7 @@ return {
 			"meuter/lualine-so-fancy.nvim",
 		},
 	},
+    {"lewis6991/gitsigns.nvim"},
 
     -- mini.icons
 	{
