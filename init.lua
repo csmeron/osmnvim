@@ -5,9 +5,9 @@
 -- Import plugins (these will be used in core.lazy)
 local plugs = {
 	{ import = "plugins.editor" },
-  { import = "plugins.coding" },
+    { import = "plugins.coding" },
 	{ import = "plugins.ui" },
-  { import = "plugins.snacks" },
+    { import = "plugins.snacks" },
 }
 
 -- Import core modules (things like keymaps, vim.opts, etc.)
