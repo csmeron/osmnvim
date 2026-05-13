@@ -11,6 +11,7 @@ return {
     animate = { enabled = true }, -- animations
     input = { enabled = true }, -- better vim.ui.input
     dim = { enabled = true }, -- dims code not in active scope
+    gh = { enabled = true }, -- github cli integration
     git = { enabled = true }, -- git utilities
     notifier = { enabled = true }, -- prettier vim.notify
     scroll = { enabled = true }, -- smooth scrolling
